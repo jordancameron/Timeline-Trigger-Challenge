@@ -12,7 +12,6 @@ public class Trigger : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             timeline.Play();
-            Debug.Log("HELP");
         }
     }
 }
